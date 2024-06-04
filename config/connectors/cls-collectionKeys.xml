@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <services>
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.RestVS">
+        <servicesKeys>
+            <keyDetails collectionKey="ccs:service_ccs" connectorServiceName="ccs:service_ccs"/>
+            <keyDetails collectionKey="ccs:service_ccs_new" connectorServiceName="ccs:service_ccs_new"/>
+            <keyDetails collectionKey="ccs:service_table_ccs" connectorServiceName="ccs:service_table_ccs"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
     <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
         <servicesKeys>
             <keyDetails collectionKey="Connections:create_CCS" connectorServiceName="Connections:create_CCS"/>
