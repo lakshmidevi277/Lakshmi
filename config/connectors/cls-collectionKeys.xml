@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<services>
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
+        <servicesKeys>
+            <keyDetails collectionKey="Connections:create_CCS" connectorServiceName="Connections:create_CCS"/>
+            <keyDetails collectionKey="Connections:delete_ccs" connectorServiceName="Connections:delete_ccs"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
+</services>
