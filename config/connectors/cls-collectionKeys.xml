@@ -11,6 +11,7 @@
         <servicesKeys>
             <keyDetails collectionKey="Connections:create_CCS" connectorServiceName="Connections:create_CCS"/>
             <keyDetails collectionKey="Connections:delete_ccs" connectorServiceName="Connections:delete_ccs"/>
+            <keyDetails collectionKey="ccs:sf_query" connectorServiceName="ccs:sf_query"/>
         </servicesKeys>
     </cloudstreamsCollectionKeys>
 </services>
